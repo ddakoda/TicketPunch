@@ -7,6 +7,3 @@
 - Remove movies from your watch list when you're finished!
 
 ## Usage Information / Notes for viewer / etc
-
-You can also use animated GIFs for awesome!
-![ScreenShot](/cel.gif)
