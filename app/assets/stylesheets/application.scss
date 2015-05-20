@@ -35,8 +35,8 @@
    background-image: url('http://i.imgur.com/gak1ll0.png%22%20title=%22source:%20imgur.com%22');
    background-size: cover;
    background-attachment:fixed;
-   margin-top: 600px;
  }
+ 
  .nav{
    background-color: $asset-slate;
    background-image: url("/BottomHalf.png");
@@ -52,25 +52,30 @@
    border-radius: 2px;
    padding: 15px 15px 15px 15px;
  }
+
  .responsive-menu{
    color: $asset-white;
    padding: 15px 15px 15px 15px;
  }
+
  .expand-menu {
    color: $asset-white;
    padding: 15px 15px 15px 15px;
  }
+
  .expand {
    display: none;
    visibility: hidden;
    padding: 15px 15px 15px 15px;
  }
+
  h1{
    color: $asset-slate;
    font-weight: 48;
    font-size: 204px!important ;
    padding: 15px 15px 15px 15px;
  }
+
  h2{
    color: $asset-white!important ;
    font-weight: 48;
@@ -142,4 +147,3 @@ td {
 .margin-top-100{
   margin-top: 100px;
 }
-
