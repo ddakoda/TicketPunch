@@ -99,6 +99,7 @@
 
 #### Flat UI
 
+![Imgur](http://i.imgur.com/Rn7hLy0.png)
 
 ### Scrum
 
