@@ -99,6 +99,11 @@
 
 #### Flat UI
 
+![Imgur](http://i.imgur.com/Rn7hLy0.png)
+
+#### Features To Add
+
+![Imgur](http://i.imgur.com/izTG2g4.png)
 
 ### Scrum
 
