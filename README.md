@@ -17,10 +17,10 @@
 
 ### The Team:
 
-[Jack](https://github.com/JackWangelin) - Co-Design Lead
-[Janice](https://github.com/LiuLiuDesigns) - Co-Design Lead
-[Brett](https://github.com/thehaymaker) - Development Lead
-[Dakoda](https://github.com/ddakoda) - Project Manager
+![Jack](https://github.com/JackWangelin) - Co-Design Lead
+![Janice](https://github.com/LiuLiuDesigns) - Co-Design Lead
+![Brett](https://github.com/thehaymaker) - Development Lead
+![Dakoda](https://github.com/ddakoda) - Project Manager
 
 ### Defining The User
 
