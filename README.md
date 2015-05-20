@@ -104,6 +104,7 @@
 #### Features To Add
 
 ![Imgur](http://i.imgur.com/izTG2g4.png)
+![Imgur](http://i.imgur.com/h8s32Uz.png)
 
 ### Scrum
 
