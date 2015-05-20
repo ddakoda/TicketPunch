@@ -1,5 +1,7 @@
 # | Ticket Punch | Motivation |
 
+[Imgur](http://i.imgur.com/IoLzdO3.png)
+
 # TicketPunch
 - The fun friendly way to organize your movie watch list!
 - Search for a movie and add it to your watch list!
@@ -17,10 +19,10 @@
 
 ### The Team:
 
-![Jack](https://github.com/JackWangelin) - Co-Design Lead
-![Janice](https://github.com/LiuLiuDesigns) - Co-Design Lead
-![Brett](https://github.com/thehaymaker) - Development Lead
-![Dakoda](https://github.com/ddakoda) - Project Manager
+![Jack](https://github.com/JackWangelin)
+![Janice](https://github.com/LiuLiuDesigns)
+![Brett](https://github.com/thehaymaker)
+![Dakoda](https://github.com/ddakoda)
 
 ### Defining The User
 
