@@ -1,31 +1,32 @@
 <h1>Welcome <%= @user.username %></h1>
 
-<%= form_tag('/sessions', method: 'delete') do %>
-  <%= submit_tag "Log-Out", class: "btn btn-primary" %>
-<% end %>
+<section class="form-container">
+  <%= form_tag('/sessions', method: 'delete') do %>
+    <%= submit_tag "Log-Out", class: "btn btn-primary" %>
+  <% end %><br>
 
 
-<input id='movie_search' type="text" placeholder='...movie title' class="form-control">
-<div id='movie-display'></div>
+  <input id='movie_search' type="text" placeholder='...movie title' class="form-control"><br>
+  <div id='movie-display'></div><br>
 
 
-<table>
-  <% @user.watch_list_entries.each do |entries| %>
-    <tr>
-      <td>
-        <%= entries.movie.title %>
-      </td>
-      <td>
-        <form action="/users/wish/<%= entries.id %>" method="post">
-          <%= token_tag %>
-          <input type="hidden" name="_method" value="delete">
-          <input type="submit" value="Remove" class="btn btn-primary">
-        </form>
-      </td>
-    </tr>
-  <% end %>
-</table>
-
+  <table>
+    <% @user.watch_list_entries.each do |entries| %>
+      <tr>
+        <td>
+          <%= entries.movie.title %>
+        </td>
+        <td>
+          <form action="/users/wish/<%= entries.id %>" method="post">
+            <%= token_tag %>
+            <input type="hidden" name="_method" value="delete">
+            <input type="submit" value="Remove" class="btn btn-primary">
+          </form>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+</section>
 
 
 <script id='movie-template' type='text/template' charset="utf-8">
