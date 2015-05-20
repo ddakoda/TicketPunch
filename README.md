@@ -108,14 +108,12 @@ John
 
 ### Scrum
 
-#### Monday
-
-#### Features for tomorrow:
+#### Features To Work Out:
 
 - The UX Team: Mocking version 2.0. up for future implementation.
 - The Development Team: Working within Flat UI and writing .scss styling based on the UX-teams wireframes.
 
-#### Largest blocker to overcome:
+#### Largest Blocker To Overcome:
 
 - The UX Team: Concentrating on establishing a higher fidelity towards the overall aesthetic.
 - The Development Team: Customizing various features and integrating the hamburger menu.
