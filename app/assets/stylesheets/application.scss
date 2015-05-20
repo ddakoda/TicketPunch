@@ -76,8 +76,29 @@
    font-size: 204px!important ;
    padding: 15px 15px 15px 15px;
  }
-
 .form-container {
    width: 80%;
    margin: 2px auto;
+}
+.footer{
+//background-image: url("/TopHalf.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  width: 100%;
+  position: absolute;
+  margin-bottom: auto;
+  border-radius: 2px;
+  padding: 15px 15px 15px 15px;
+}
+#bottom{
+   position:fixed;
+   bottom:0px;
+   width:100%;
+}
+#bottom-center{
+   width:100px;
+   margin:0px auto;
+}
+.margin-top-100{
+  margin-top: 100px;
 }
