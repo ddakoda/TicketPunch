@@ -6,9 +6,11 @@ var active = active || {};
 
 $(document).ready(function(evt){
   active.seconds;
-  
-app.movieTemplateNode = $('#movie-template').html();
-app.movieTemplate = _.template(app.movieTemplateNode);
+
+  app.movieTemplateNode = $('#movie-template').html();
+  if (app.movieTemplateNode != null || app.movieTemplateNode != undefined) {
+      app.movieTemplate = _.template(app.movieTemplateNode);
+  }
 
   $(function(){
 
