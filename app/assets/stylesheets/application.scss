@@ -36,6 +36,7 @@
    background-size: cover;
    background-attachment:fixed;
  }
+
  .nav{
    background-color: $asset-slate;
    background-image: url("/BottomHalf.png");
@@ -51,25 +52,30 @@
    border-radius: 2px;
    padding: 15px 15px 15px 15px;
  }
+
  .responsive-menu{
    color: $asset-white;
    padding: 15px 15px 15px 15px;
  }
+
  .expand-menu {
    color: $asset-white;
    padding: 15px 15px 15px 15px;
  }
+
  .expand {
    display: none;
    visibility: hidden;
    padding: 15px 15px 15px 15px;
  }
+
  h1{
    color: $asset-slate;
    font-weight: 48;
    font-size: 204px!important ;
    padding: 15px 15px 15px 15px;
  }
+
  h2{
    color: $asset-white!important ;
    font-weight: 48;
@@ -81,12 +87,50 @@
    width: 80%;
    margin: 2px auto;
 }
-
 h2.title {
    color: $asset-slate!important ;
    padding: 10px 10px 10px 10px;
    background-color: rgba(0,0,0,0);
    font-size: 100px!important ;
+}
+
+h4.meta-info {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
+}
+
+p.plot {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
+}
+
+#movie-display {
+   background-color: $asset-white!important;
+   border-radius: 20px;
+   padding: 5px 5px 20px 5px;
+}
+
+td {
+   color: $asset-slate!important;
+   background-color: rgba(0,0,0,0);
+   border-radius: 5px;
+   padding: 4px;
+   overflow: auto;
+   padding: 3px;
+}
+
+
+.footer{
+   background-image: url("/TopHalf.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  width: 100%;
+  position: absolute;
+  margin-bottom: auto;
+  border-radius: 2px;
+  padding: 15px 15px 15px 15px;
 }
 
 h4.meta-info {
