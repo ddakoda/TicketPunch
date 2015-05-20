@@ -1,10 +1,12 @@
-<h3>Log-In</h3>
-<%= form_tag('/sessions', method:'post') do %>
-  <%= label_tag :username %>
-  <%= text_field_tag :username, nil, class: "form-control" %>
+<section class="form-container">
+	<h3>Log-In</h3>
+	<%= form_tag('/sessions', method:'post') do %>
+	  <%= label_tag :username %>
+	  <%= text_field_tag :username, nil, class: "form-control" %>
 
-  <%= label_tag :password %>
-  <%= password_field_tag :password, nil, class: "form-control" %>
+	  <%= label_tag :password %>
+	  <%= password_field_tag :password, nil, class: "form-control" %>
 
-  <%= submit_tag "Log-In", class: "btn btn-primary" %>
-<% end %>
+	  <%= submit_tag "Log-In", class: "btn btn-primary" %>
+	<% end %>
+</section>
