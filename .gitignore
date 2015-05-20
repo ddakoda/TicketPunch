@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+
+/TP_Design_Assets/**
