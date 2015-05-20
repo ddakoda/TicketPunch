@@ -15,3 +15,5 @@
 //= require turbolinks
 //= require underscore
 //= require_tree .
+//= require flat-ui.min.js
+
