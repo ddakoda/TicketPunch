@@ -1,6 +1,6 @@
 # | Ticket Punch | Motivation |
 
-[Imgur](http://i.imgur.com/IoLzdO3.png)
+![Imgur](http://i.imgur.com/IoLzdO3.png)
 
 # TicketPunch
 - The fun friendly way to organize your movie watch list!
@@ -19,10 +19,10 @@
 
 ### The Team:
 
-![Jack](https://github.com/JackWangelin)
-![Janice](https://github.com/LiuLiuDesigns)
-![Brett](https://github.com/thehaymaker)
-![Dakoda](https://github.com/ddakoda)
+[Jack](https://github.com/JackWangelin)
+[Janice](https://github.com/LiuLiuDesigns)
+[Brett](https://github.com/thehaymaker)
+[Dakoda](https://github.com/ddakoda)
 
 ### Defining The User
 
@@ -30,7 +30,9 @@
 
 John
 - 27 Years Old
-###### Watches movies:
+
+Watches movies:
+
 - Netflix
 - Goes to theater on occasion
 - Owns an AppleTV
