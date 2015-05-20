@@ -38,6 +38,12 @@
  }
  .nav{
    background-color: $asset-slate;
+   background-image: url("/BottomHalf.png");
+   background-repeat: no-repeat;
+   background-position: 50% 0;
+   width: 100%;
+   position: absolute;
+   margin-top: -30px;
    font-family: $first-font;
    font-weight: 250;
    font-size: 52px;
@@ -46,11 +52,11 @@
    padding: 15px 15px 15px 15px;
  }
  .responsive-menu{
-   color: $asset-slate;
+   color: $asset-white;
    padding: 15px 15px 15px 15px;
  }
  .expand-menu {
-   color: $asset-foam;
+   color: $asset-white;
    padding: 15px 15px 15px 15px;
  }
  .expand {
@@ -60,13 +66,13 @@
  }
  h1{
    color: $asset-slate;
-   font-weight: 102;
+   font-weight: 48;
    font-size: 204px!important ;
    padding: 15px 15px 15px 15px;
  }
  h2{
-   color: $asset-foam;
-   font-weight: 102;
+   color: $asset-white!important ;
+   font-weight: 48;
    font-size: 204px!important ;
    padding: 15px 15px 15px 15px;
  }
