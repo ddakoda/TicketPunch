@@ -1,12 +1,14 @@
-<%= form_for @user do |f| %>
-  <%= f.label :username %>:
-  <%= f.text_field :username, class: "form-control" %>
+<section class="form-container">
+	<%= form_for @user do |f| %>
+	  <%= f.label :username %>:
+	  <%= f.text_field :username, class: "form-control" %>
 
-  <%= f.label :password %>:
-  <%= f.password_field :password, class: "form-control" %>
+	  <%= f.label :password %>:
+	  <%= f.password_field :password, class: "form-control" %>
 
-  <%= f.label :email %>:
-  <%= f.text_field :email, class: "form-control"%>
+	  <%= f.label :email %>:
+	  <%= f.text_field :email, class: "form-control"%>
 
-  <%= f.submit nil, class: "btn btn-primary" %>
-<% end %>
+	  <%= f.submit nil, class: "btn btn-primary" %>
+	<% end %>
+</section>
