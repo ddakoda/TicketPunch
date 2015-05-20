@@ -76,29 +76,46 @@
    font-size: 204px!important ;
    padding: 15px 15px 15px 15px;
  }
+
 .form-container {
    width: 80%;
    margin: 2px auto;
 }
-.footer{
-  background-image: url("/TopHalf.png");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  width: 100%;
-  position: absolute;
-  margin-bottom: auto;
-  border-radius: 2px;
-  padding: 15px 15px 15px 15px;
+
+h2.title {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
+   font-size: 100px!important ;
 }
-#bottom{
-   position:fixed;
-   bottom:0px;
-   width:100%;
+
+h4.meta-info {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
 }
-#bottom-center{
-   width:100px;
-   margin:0px auto;
+
+p.plot {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
 }
-.margin-top-100{
-  margin-top: 100px;
+
+#movie-display {
+   background-color: $asset-white!important;
+   border-radius: 20px;
+   padding: 5px 5px 20px 5px;
+}
+
+td {
+   color: $asset-slate!important;
+   background-color: rgba(0,0,0,0);
+   border-radius: 5px;
+   padding: 4px;
+   overflow: auto;
+   padding: 3px;
+}
+
+div.nav {
+   position: relative;
 }
