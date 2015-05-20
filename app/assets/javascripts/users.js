@@ -1,7 +1,14 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
 
+$(document).ready(function(evt){
+  active.seconds;
+
 $(function(){
+
+  $( '.menu-btn' ).click(function(){
+    $('.responsive-menu').toggleClass('expand');
+
 
   var app = app || {};
   app.movieTemplateNode = $('#movie-template');
@@ -23,9 +30,8 @@ $(function(){
           $('#movie-display').html( movieHTML );
           app.movieID = data.movie.id;
         }
-      }
+        }
+      });
     });
-
   });
-
 });
