@@ -1,5 +1,6 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
+var active = active || {};
 
 $(document).ready(function(evt){
   active.seconds;
@@ -7,12 +8,12 @@ $(document).ready(function(evt){
   $(function(){
 
     $( '.menu-btn' ).click(function(){
-    $('.responsive-menu').toggleClass('expand');
+    $('.menu-container').toggleClass('expand');
 
 
       var app = app || {};
-      app.movieTemplateNode = $('#movie-template');
-      app.movieTemplate = _.template( app.movieTemplateNode.html() );
+      app.movieTemplateNode = $('#movie-template').html();
+      app.movieTemplate = _.template(app.movieTemplateNode);
 
 
       $('#movie_search').on('keyup', function(){

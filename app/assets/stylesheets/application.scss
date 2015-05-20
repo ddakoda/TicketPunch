@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap.min.css
+ *= require flat-ui.min.css
  */
 
 
@@ -41,10 +43,17 @@
    font-size: 52px;
    list-style-type: none;
    border-radius: 2px;
-   padding: 15px 0;
+   padding: 15px 15px 15px 15px;
  }
  .responsive-menu{
    color: $asset-slate;
+ }
+ .expand-menu {
+   color: $asset-foam;
+ }
+ .expand {
+   display: none;
+   visibility: hidden;
  }
  h1{
    color: $asset-slate;
