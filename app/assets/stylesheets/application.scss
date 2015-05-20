@@ -81,3 +81,43 @@
    width: 80%;
    margin: 2px auto;
 }
+
+h2.title {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
+   font-size: 100px!important ;
+
+
+}
+
+h4.meta-info {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
+}
+
+p.plot {
+   color: $asset-slate!important ;
+   padding: 10px 10px 10px 10px;
+   background-color: rgba(0,0,0,0);
+}
+
+#movie-display {
+   background-color: $asset-white!important;
+   border-radius: 20px;
+   padding: 5px 5px 20px 5px;
+}
+
+td {
+   color: $asset-slate!important;
+   background-color: rgba(0,0,0,0);
+   border-radius: 5px;
+   padding: 4px;
+   overflow: auto;
+   padding: 3px;
+}
+
+div.nav {
+   position: relative;
+}
