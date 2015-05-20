@@ -35,7 +35,6 @@
    background-image: url('http://i.imgur.com/gak1ll0.png%22%20title=%22source:%20imgur.com%22');
    background-size: cover;
    background-attachment:fixed;
-   margin-top: 600px;
  }
  .nav{
    background-color: $asset-slate;
@@ -81,50 +80,8 @@
    width: 80%;
    margin: 2px auto;
 }
-
-
-h2.title {
-   color: $asset-slate!important ;
-   padding: 10px 10px 10px 10px;
-   background-color: rgba(0,0,0,0);
-   font-size: 100px!important ;
-
-
-}
-
-h4.meta-info {
-   color: $asset-slate!important ;
-   padding: 10px 10px 10px 10px;
-   background-color: rgba(0,0,0,0);
-}
-
-p.plot {
-   color: $asset-slate!important ;
-   padding: 10px 10px 10px 10px;
-   background-color: rgba(0,0,0,0);
-}
-
-#movie-display {
-   background-color: $asset-white!important;
-   border-radius: 20px;
-   padding: 5px 5px 20px 5px;
-}
-
-td {
-   color: $asset-slate!important;
-   background-color: rgba(0,0,0,0);
-   border-radius: 5px;
-   padding: 4px;
-   overflow: auto;
-   padding: 3px;
-}
-
-div.nav {
-   position: relative;
-}
-
 .footer{
-//background-image: url("/TopHalf.png");
+  background-image: url("/TopHalf.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
   width: 100%;
@@ -145,4 +102,3 @@ div.nav {
 .margin-top-100{
   margin-top: 100px;
 }
-
