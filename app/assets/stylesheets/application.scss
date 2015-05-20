@@ -14,15 +14,45 @@
  *= require_self
  */
 
-// Brand Defined Colours
-$asset-slate: #2C3E4F;
-$asset-sky: #3E98D3;
-$asset-dusk: #965DA5;
-$asset-mistyforest: #2CB89A;
-$asset-wenge: #231F20;
 
-// scss imports
-// not yet implemented
+ // Brand Defined Colours
+ $asset-slate: rgba(44, 62, 79, 1);
+ $asset-sky: rgba(62, 152, 211, .85);
+ $asset-flower: rgba(150, 93, 165, .85);
+ $asset-foam: rgba(44, 184, 154, .85);
+ $asset-wenge: rgba(35, 31, 32, .85);
+ $asset-white: rgba(255, 255, 255, .85);
 
-// your code
-// not yet implemented
+ // Brand Defined Colours
+ $first-font: 'Lato', sans-serif;
+ $second-font: 'Helvetica', Helvetica;
+
+ // scss imports
+
+ body{
+   background-image: url('http://i.imgur.com/gglxHbQ.png');
+   background-size: cover;
+   background-attachment:fixed;
+ }
+ .nav{
+   background-color: $asset-slate;
+   font-family: $first-font;
+   font-weight: 250;
+   font-size: 52px;
+   list-style-type: none;
+   border-radius: 2px;
+   padding: 15px 0;
+ }
+ .responsive-menu{
+   color: $asset-slate;
+ }
+ h1{
+   color: $asset-slate;
+   font-weight: 102;
+   font-size: 204px!important ;
+ }
+ h2{
+   color: $asset-foam;
+   font-weight: 102;
+   font-size: 204px!important ;
+ }

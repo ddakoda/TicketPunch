@@ -9,11 +9,18 @@
 <body>
 
   <% unless current_user %>
-    <nav>
+  <nav>
+    <div class="nav">
+    <div class="menu-btn" id="menu-btn">
+    <div class="responsive-menu">
       <a href="/">Home</a>
       <a href="/users/new">Sign-Up</a>
       <a href="/users/log-in">Log-In</a>
-    </nav>
+  </nav>
+
+</div>
+</div>
+
   <% end %>
 
 <%= yield %>
