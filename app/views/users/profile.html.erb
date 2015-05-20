@@ -1,11 +1,11 @@
 <h1>Welcome <%= @user.username %></h1>
 
 <%= form_tag('/sessions', method: 'delete') do %>
-  <%= submit_tag "Log-Out" %>
+  <%= submit_tag "Log-Out", class: "btn btn-primary" %>
 <% end %>
 
 
-<input id='movie_search' type="text" placeholder='...movie title'>
+<input id='movie_search' type="text" placeholder='...movie title' class="form-control">
 <div id='movie-display'></div>
 
 
@@ -19,7 +19,7 @@
         <form action="/users/wish/<%= entries.id %>" method="post">
           <%= token_tag %>
           <input type="hidden" name="_method" value="delete">
-          <input type="submit" value="Remove">
+          <input type="submit" value="Remove" class="btn btn-primary">
         </form>
       </td>
     </tr>
