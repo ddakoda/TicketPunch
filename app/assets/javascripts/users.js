@@ -1,22 +1,23 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
 var active = active || {};
+      var app = app || {};
+
 
 $(document).ready(function(evt){
   active.seconds;
+  
+app.movieTemplateNode = $('#movie-template').html();
+app.movieTemplate = _.template(app.movieTemplateNode);
 
   $(function(){
 
     $( '.menu-btn' ).click(function(){
-    $('.menu-container').toggleClass('expand');
+      $('.menu-container').toggleClass('expand');
+      
+    });
 
-
-      var app = app || {};
-      app.movieTemplateNode = $('#movie-template').html();
-      app.movieTemplate = _.template(app.movieTemplateNode);
-
-
-      $('#movie_search').on('keyup', function(){
+    $('#movie_search').on('keyup', function(){
 
         var field = $(this);
 
@@ -34,6 +35,5 @@ $(document).ready(function(evt){
           }
         });
       });
-    });
   });
 });
