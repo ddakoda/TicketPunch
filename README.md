@@ -17,17 +17,17 @@
 
 ### The Team:
 
-[Jack](https://github.com/JackWangelin)
-[Janice](https://github.com/LiuLiuDesigns)
-[Brett](https://github.com/thehaymaker)
-[Dakoda](https://github.com/ddakoda)
+[Jack](https://github.com/JackWangelin) - Co-Design Lead
+[Janice](https://github.com/LiuLiuDesigns) - Co-Design Lead
+[Brett](https://github.com/thehaymaker) - Development Lead
+[Dakoda](https://github.com/ddakoda) - Project Manager
 
 ### Defining The User
 
 #### Creating One Target User
 
-###### John
-27 Years Old
+John
+- 27 Years Old
 ###### Watches movies:
 - Netflix
 - Goes to theater on occasion
@@ -112,13 +112,13 @@
 
 #### Features for tomorrow:
 
-- The UX Team: Mocking version 2.0
-- The Development Team: Working within Flat UI
+- The UX Team: Mocking version 2.0. up for future implementation.
+- The Development Team: Working within Flat UI and writing .scss styling based on the UX-teams wireframes.
 
 #### Largest blocker to overcome:
 
-- The UX Team: Concentrating on establishing a higher fidelity towards the overall aesthetic
-- The Development Team: Customizing various features and integrating the hamburger
+- The UX Team: Concentrating on establishing a higher fidelity towards the overall aesthetic.
+- The Development Team: Customizing various features and integrating the hamburger menu.
 
 ### Resources
 
