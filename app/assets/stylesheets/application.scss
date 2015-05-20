@@ -32,8 +32,7 @@
  // scss imports
 
  body{
-   background-image: url('https://americanthings.files.wordpress.com/2010/01/drive-in-
-by-possbdotcom.jpg');
+   background-image: url('http://i.imgur.com/gak1ll0.png%22%20title=%22source:%20imgur.com%22');
    background-size: cover;
    background-attachment:fixed;
  }
@@ -48,21 +47,26 @@ by-possbdotcom.jpg');
  }
  .responsive-menu{
    color: $asset-slate;
+   padding: 15px 15px 15px 15px;
  }
  .expand-menu {
    color: $asset-foam;
+   padding: 15px 15px 15px 15px;
  }
  .expand {
    display: none;
    visibility: hidden;
+   padding: 15px 15px 15px 15px;
  }
  h1{
    color: $asset-slate;
    font-weight: 102;
    font-size: 204px!important ;
+   padding: 15px 15px 15px 15px;
  }
  h2{
    color: $asset-foam;
    font-weight: 102;
    font-size: 204px!important ;
+   padding: 15px 15px 15px 15px;
  }
